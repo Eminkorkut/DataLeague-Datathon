@@ -1,2 +1,33 @@
-datathon_simple_scored.parquet
+# Data files
 datathonFINAL.parquet
+datathon_simple_scored.parquet
+
+# Notebook / Python cache
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.nbconvert.ipynb
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Local secrets
+.env
+.env.*
+!.env.example
